@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Kadai_HeadTraining</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">頭トレーニング</string>
+    <string name="title">頭トレーニング（計算編）</string>
+    <string name="on_label">音声入力ON</string>
+    <string name="off_label">音声入力OFF</string>
+    <string name="loading1">loading……m(_ _)m</string>
+    <string name="loading2">画面を横に向けてお待ちくださいm(_ _)m</string>
+    <string name="answr_place">問題</string>
+    <string name="answr_response">回答</string>
+    
+</resources>

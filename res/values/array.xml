@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="list1">
+    <item>表示されている問題を回答する</item>
+    <item>１問前を回答する</item>
+    <item>２問前を回答する</item>
+    <item>３問前を回答する</item>
+    <item>４問前を回答する</item>
+    <item>５問前を回答する</item>
+    <item>６問前を回答する</item>
+    <item>７問前を回答する</item>
+    <item>８問前を回答する</item>
+    <item>９問前を回答する</item>
+    <item>１０問前を回答する</item>
+    </string-array>    
+  <string-array name="list2">
+    <item>１問回答制限時間１０秒</item>
+    <item>１問回答制限時間９秒</item>
+    <item>１問回答制限時間８秒</item>
+    <item>１問回答制限時間７秒</item>
+    <item>１問回答制限時間６秒</item>
+    <item>１問回答制限時間５秒</item>
+    <item>１問回答制限時間４秒</item>
+    <item>１問回答制限時間３秒</item>
+    <item>１問回答制限時間２秒</item>
+    <item>１問回答制限時間１秒</item>
+  </string-array>    
+  <string-array name="list3">
+    <item>桁数１桁まで</item>
+    <item>桁数２桁まで</item>
+    <item>桁数３桁まで</item>
+    <item>桁数４桁まで</item>
+    <item>桁数５桁まで</item>
+  </string-array>    
+  <string-array name="list4">
+    <item>総問題数１０問</item>
+    <item>総問題数２０問</item>
+    <item>総問題数３０問</item>
+    <item>総問題数４０問</item>
+    <item>総問題数５０問</item>
+    <item>総問題数６０問</item>
+    <item>総問題数７０問</item>
+    <item>総問題数８０問</item>
+    <item>総問題数９０問</item>
+    <item>総問題数１００問</item>
+  </string-array>    
+</resources>

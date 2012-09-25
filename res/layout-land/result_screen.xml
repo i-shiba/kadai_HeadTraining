@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+		    <TextView
+		        android:id="@+id/textresult_id1"
+		        android:layout_width="260dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center|left"
+		        android:textSize="36dp" />
+		    <TextView
+		        android:id="@+id/textresult_id2"
+		        android:layout_width="260dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center|left"
+		        android:textSize="36dp" />
+	   	</TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+		    <TextView
+		        android:id="@+id/textresult_id3"
+		        android:layout_width="260dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center|left"
+		        android:textSize="36dp" />
+		    <TextView
+		        android:id="@+id/textresult_id4"
+		        android:layout_width="260dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center|left"
+		        android:textSize="36dp" />
+	   	</TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+		    <TextView
+		        android:id="@+id/textresult_id5"
+		        android:layout_width="260dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center|left"
+		        android:textSize="36dp" />
+		    <TextView
+		        android:id="@+id/textresult_id6"
+		        android:layout_width="260dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center|left"
+		        android:textSize="36dp" />
+	   	</TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+		    <TextView
+		        android:id="@+id/textresult_id7"
+		        android:layout_width="260dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center|left"
+		        android:textSize="36dp" />
+		    <TextView
+		        android:id="@+id/textresult_id8"
+		        android:layout_width="260dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center|left"
+		        android:textSize="36dp" />
+	   	</TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+		    <TextView
+		        android:id="@+id/textresult_id9"
+		        android:layout_width="260dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center|left"
+		        android:textSize="36dp" />
+		    <TextView
+		        android:id="@+id/textresult_idA"
+		        android:layout_width="260dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center|left"
+		        android:textSize="36dp" />
+	   	</TableRow>
+    </TableLayout>
+		    
+    <Button
+        android:id="@+id/return_btn"
+	    android:onClick="returnKeyOnClick"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="タイトルへ戻る" />
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1" >
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="45dp"
+		        android:background="#FFFFFF"
+		        android:gravity="center"
+		        android:text="@string/title"
+		        android:textColor="@color/lightgreen"
+		        android:textSize="26dp" />
+	        
+            <CheckBox
+                android:id="@+id/addcalc_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textSize="14dp"
+                android:text="足し算" />
+            <CheckBox
+                android:id="@+id/subcalc_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="引き算" />
+            
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1" >
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="45dp"
+		        android:background="#FFFFFF"
+		        android:gravity="center"
+		        android:textSize="26dp" />
+
+		    <CheckBox
+		        android:id="@+id/milcalc_check"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="掛け算"
+		        android:textSize="14dp" />
+		
+		    <CheckBox
+		        android:id="@+id/divcalc_check"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="割り算"
+		        android:textSize="14dp" />
+	        	        
+            
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        
+            <Spinner
+                android:id="@+id/memory_spn"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/list1"
+                android:text="memory" />
+
+            <Spinner
+                android:id="@+id/speed_spn"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/list2"
+                android:text="speed" />
+        </TableRow>
+        
+    </TableLayout>
+    <TableLayout
+        android:id="@+id/tableLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+		    <Spinner
+		        android:id="@+id/place_spn"
+		        android:layout_width="265dp"
+		        android:layout_height="wrap_content"
+		        android:entries="@array/list3"
+		        android:text="placenum" />
+		
+		    <Spinner
+		        android:id="@+id/question_spn"
+		        android:layout_width="265dp"
+		        android:layout_height="wrap_content"
+		        android:entries="@array/list4"
+		        android:text="questionnum" />
+            
+        </TableRow>
+        
+    </TableLayout>
+    
+    <TableLayout
+        android:id="@+id/tableLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ToggleButton
+                android:id="@+id/togglspeech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/off_label"
+                android:textOn="@string/on_label" />
+	        <TextView
+		        android:layout_width="170dp"
+		        android:layout_height="wrap_content"
+		        android:background="#FFFFFF"
+		        android:gravity="center"
+		        android:textSize="26dp" />
+		    <Button
+		        android:id="@+id/start_id"
+		        android:layout_width="208dp"
+		        android:layout_height="wrap_content"
+		        android:onClick="startIdOnClick"
+		        android:padding="0dp"
+		        android:text="開　　始"
+		        android:textSize="30sp" />
+	        		
+        </TableRow>
+        
+    </TableLayout>
+    
+</LinearLayout>
+    
